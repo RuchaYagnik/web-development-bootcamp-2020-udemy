@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)https://gujcet.gseb.org/ApplicationPrint.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Welcome to GUJCET
+</title><link href="./Welcome to GUJCET_files/bootstrap.css" type="text/css" rel="stylesheet"><link href="./Welcome to GUJCET_files/font-awesome.min.css" type="text/css" rel="stylesheet"><link href="./Welcome to GUJCET_files/custom.css" type="text/css" rel="stylesheet"><link href="./Welcome to GUJCET_files/Responsive.css" type="text/css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" crossorigin="anonymous" href="./Welcome to GUJCET_files/main.css"><script src="./Welcome to GUJCET_files/jquery.min.js.download"></script>
+
+    <script src="./Welcome to GUJCET_files/bootstrap.min.js.download"></script>
+
+    <script type="text/javascript" language="javascript">
+        function CloseSession() {
+            location.href = 'Login.aspx';
+        }        
+    </script>
+
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function() { null };
+    </script>
+
+    
+
+    <script language="javascript" type="text/javascript">
+        window.history.forward(1);
+        window.oncontextmenu = function() {
+            return false;
+        }
+        //this code handles the F5/Ctrl+F5/Ctrl+R
+        document.onkeydown = checkKeycode
+        function checkKeycode(e) {
+            var keycode;
+            if (window.event)
+                keycode = window.event.keyCode;
+            else if (e)
+                keycode = e.which;
+
+
+
+            // IE
+            {
+                try {
+                    // if (keycode == 116 || (window.event.ctrlKey && keycode == 82))
+                    if (keycode == 116 || (e.ctrlKey && keycode == 82 || keycode == 123)) {
+                        window.event.returnValue = false;
+                        window.event.keyCode = 0;
+
+                    }
+                }
+                catch (Error) {
+                }
+            }
+
+            // Mozilla firefox
+            {
+                try {
+                    if (keycode == 116 || (e.ctrlKey && keycode == 82 || keycode == 123)) {
+
+                        if (e.preventDefault) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                        }
+                    }
+                }
+                catch (Error) {
+                }
+
+            }
+
+        }
+
+
+
+
+    </script>
+
+    
+
+    <script src="./Welcome to GUJCET_files/bootstrap.js.download"></script>
+
+    <script type="text/javascript" language="javascript">
+        function CloseSession() {
+            location.href = 'ApplicantRegistration.aspx';
+        }        
+    </script>
+
+    
+
+    <script language="javascript" type="text/javascript">
+        window.history.forward(1);
+
+
+        window.oncontextmenu = function() {
+            return false;
+        }
+        document.onkeydown = checkKeycode
+        function checkKeycode(e) {
+            var keycode;
+            if (window.event)
+                keycode = window.event.keyCode;
+            else if (e)
+                keycode = e.which;
+            {
+                try {
+                    if (keycode == 116 || (e.ctrlKey && keycode == 82 || keycode == 123)) {
+                        window.event.returnValue = false;
+                        window.event.keyCode = 0;
+
+                    }
+                }
+                catch (Error) {
+                }
+            }
+            // Mozilla firefox
+            {
+                try {
+                    if (keycode == 116 || (e.ctrlKey && keycode == 82 || keycode == 123)) {
+
+                        if (e.preventDefault) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                        }
+                    }
+                }
+                catch (Error) {
+                }
+
+            }
+
+        }
+
+
+
+
+    </script>
+
+    <script type="text/javascript" language="javascript">
+        function CloseSession() {
+            location.href = 'ApplicantRegistration.aspx';
+        }
+        function js_print() {
+            document.getElementById("iduser").style.display = "none";
+            document.getElementById("idmenu").style.display = "none";
+            var dNow = new Date();
+            var localdate = dNow.getDate() + '/' + (dNow.getMonth() + 1) + '/' + dNow.getFullYear() + ' ' + dNow.getHours() + ':' + dNow.getMinutes();
+            $('#currentDate').text(localdate);
+            window.print();
+            return false;
+        }        
+    </script>
+
+    <script type="text/javascript">
+        history.forward(+1);
+    </script>
+
+    <style type="text/css">
+        body
+        {
+            font-size: 11px;
+        }
+        .dashboard-block
+        {
+            margin: 0em 0;
+        }
+        .dashboard-block .heading
+        {
+            text-align: left;
+            padding: 7px 15px;
+        }
+        .dashboard-block .body
+        {
+            padding: 1px 1em;
+            background: #fff;
+            box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
+            margin-bottom: 0px;
+        }
+        .myform .form-group
+        {
+            margin-bottom: 0px;
+        }
+        /*  .control-label normal_font
+        {
+            color: #555;
+            font-weight: 500;
+            padding-top: 7px;
+            font-size: 12px;
+            word-wrap: break-word;
+        }*/.normal_font
+        {
+            text-align: left !important;
+            font-weight: 500 !important;
+            font-size: 11px;
+            word-wrap: break-word;
+            padding-top: 0;
+        }
+        .dashboard-block .title
+        {
+            background: #2d7190;
+            padding: 3px 10px;
+            color: #fff;
+            margin: 0px 0;
+            font-weight: 600;
+        }
+        .footer-bottom
+        {
+            position: relative;
+            padding: 5px 0px 5px;
+            background: #888;
+            font-size: 12px;
+        }
+        label
+        {
+            margin-bottom: 0px !important;
+        }
+        .pad-5
+        {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+        }
+        .user-name
+        {
+            float: right;
+            margin-top: 7px;
+            margin-left: 11px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body data-gr-c-s-loaded="true">
+    <form method="post" action="https://gujcet.gseb.org/ApplicationPrint.aspx" id="form1" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="scrmgr_HiddenField" id="scrmgr_HiddenField" value="">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc1NjQ3NTQzNQ9kFgJmD2QWAgIED2QWCAIDDw8WAh4EVGV4dAUUaHB5YWduaWszM0BnbWFpbC5jb21kZAIFDw8WAh8ABRMyNS0wMS0yMDIwIDEwOjU4IFBNZGQCDw8WAh4HVmlzaWJsZWcWAgIFDxYCHwFnZAIRD2QWXAIBDw8WAh8ABQYtIDIwMjBkZAIDDw8WAh8ABQhSRzAzODA1NWRkAgUPDxYCHwAFCjI1LzAxLzIwMjBkZAIHDw8WCh8ABZ4BQXBwbGljYXRpb24gTnVtYmVyOiBSRzAzODA1NQpDYW5kaWRhdGUgTmFtZTogSEFSSU9NIFBSRU1BTEJIQUkgWUFHTklLClN1YmplY3QgR3JvdXA6ICJBIgpNZWRpdW06ICJFbmdsaXNoIgpHZW5kZXI6TWFsZQpTdWJtaXR0ZWQgRGF0ZS1UaW1lOjI1LTAxLTIwMjAgMjI6NTY6MzceF3FyX0Vycm9yQ29ycmVjdGlvbkxldmVsCymKAVRlbGVyaWsuV2ViLlVJLkJhcmNvZGUuTW9kZXMrRXJyb3JDb3JyZWN0aW9uTGV2ZWwsIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTQuMS4yMjUuMzUsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNAEeC3FyX0NvZGVNb2RlCyl+VGVsZXJpay5XZWIuVUkuQmFyY29kZS5Nb2RlcytDb2RlTW9kZSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxNC4xLjIyNS4zNSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0AB4KcXJfVmVyc2lvbgIHHgpxcl9Eb3RTaXplZmRkAgkPDxYCHghJbWFnZVVybAVYU2hvd0ltYWdlLmFzaHg/UGF0aD1mbHhIVlVwRFJWUkJkSFJoWTJodFpXNTBjMXhTUnpBek9EQTFOVnhRYVdOMGRYSmxYMUpITURNNE1EVTFMbXB3Wnc9PWRkAgsPDxYCHwAFBllBR05JS2RkAg0PDxYCHwAFBkhBUklPTWRkAg8PDxYCHwAFClBSRU1BTEJIQUlkZAIRDw8WAh8ABQoxOC8wMS8yMDAzZGQCEw8QZGQWAWZkAhUPDxYCHwAFBE1hbGVkZAIXDxBkZBYBAgNkAhkPDxYCHwAFBU90aGVyZGQCGw8QZGQWAGQCHQ8PFgIfAAUDTi9BZGQCHw8QDxYGHg1EYXRhVGV4dEZpZWxkBQVWYWx1ZR4ORGF0YVZhbHVlRmllbGQFAklkHgtfIURhdGFCb3VuZGdkEBUPDVBsZWFzZSBTZWxlY3QHMC0yNTAwMAsyNTAwMC01MDAwMAw1MDAwMC0xMDAwMDANMTAwMDAwLTE1MDAwMA0xNTAwMDAtMjAwMDAwDTIwMDAwMS0yNTAwMDANMjUwMDAwLTMwMDAwMA4zMDAwMDAtIDM1MDAwMA0zNTAwMDAtNDAwMDAwDTQwMDAwMC00NTAwMDANNDUwMDAwLTUwMDAwMA01MDAwMDAtNTUwMDAwDTU1MDAwMC02MDAwMDAMQWJvdmUgNjAwMDAwFQ8BMAExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMgIxMwIxNBQrAw9nZ2dnZ2dnZ2dnZ2dnZ2cWAQIOZAIhDw8WAh8ABQxBYm92ZSA2MDAwMDBkZAIjDw8WAh8AZWRkAiUPDxYCHwAFKEMtMSBBQUdNQU4gUk9XIEhPVVNFLCBCRUhJTkQgSk9ESFBVUiBHQU1kZAInDw8WAh8ABRRTQVRFTExJVEUsIEFITUVEQUJBRGRkAikPEA8WBh8HBQpTdGF0ZV9OYW1lHwgFClN0YXRlX0NvZGUfCWdkEBUkDVBsZWFzZSBTZWxlY3QbQW5kYW1hbiBhbmQgTmljb2JhciBJc2xhbmRzDkFuZGhyYSBQcmFkZXNoEUFydW5hY2hhbCBQcmFkZXNoBUFzc2FtBUJpaGFyDENoaGF0dGlzZ2FyaApDaGFuZGlnYXJoDURhbWFuIGFuZCBEaXUjTmF0aW9uYWwgQ2FwaXRhbCBUZXJyaXRvcnkgb2YgRGVsaGkWRGFkcmEgYW5kIE5hZ2FyIEhhdmVsaQNHb2EHR3VqYXJhdBBIaW1hY2hhbCBQcmFkZXNoB0hhcnlhbmEJSmhhcmtoYW5kEUphbW11IGFuZCBLYXNobWlyCUthcm5hdGFrYQZLZXJhbGELTGFrc2hhZHdlZXALTWFoYXJhc2h0cmEJTWVnaGFsYXlhB01hbmlwdXIOTWFkaHlhIFByYWRlc2gHTWl6b3JhbQhOYWdhbGFuZAZPcmlzc2EGUHVuamFiClB1ZHVjaGVycnkJUmFqYXN0aGFuBlNpa2tpbQpUYW1pbCBOYWR1B1RyaXB1cmELVXR0YXJha2hhbmQMVXR0YXJwcmFkZXNoC1dlc3QgQmVuZ2FsFSQBMAJBTgJBUAJBUgJBUwJCUgJDRwJDSAJERAJETAJETgJHQQJHSgJIUAJIUgJKSAJKSwJLQQJLTAJMRAJNSAJNTAJNTgJNUAJNWgJOTAJPUgJQQgJQWQJSSgJTSwJUTgJUUgJVQQJVUAJXQhQrAyRnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAQIMZAIrDw8WAh8ABQdHdWphcmF0ZGQCLQ8QDxYGHwcFDURpc3RyaWN0X05hbWUfCAUNRGlzdHJpY3RfQ29kZR8JZ2QQFScNUGxlYXNlIFNlbGVjdA9BSE1BREFCQUQgUlVSQUwOQUhNRURBQkFEIENJVFkGQU1SRUxJBUFOQU5EB0FSQVZBTEkLQkFOQVNLQU5USEEHQkhBUlVDSAlCSEFWTkFHQVIFQk9UQUQNQ0hIT1RBIFVERVBVUhNEQURBUkEgTkFHQVIgSEFWRUxJBURBSE9EBURBTUFOBURBTkdTD0RFVkJIVU1JIERXQVJLQQNESVYLR0FOREhJTkFHQVILR0lSIFNPTU5BVEgISkFNTkFHQVIISlVOQUdBREgHS0FDSENISAVLSEVEQQhNQUhFU0FOQQlNQUhJU0FHQVIFTU9SQkkHTkFSTUFEQQdOQVZTQVJJC1BBTkNITUFIQUxTBVBBVEFOCVBPUkJBTkRBUgZSQUpLT1QLU0FCQVJLQU5USEEFU1VSQVQFU1VSQVQNU1VSRU5EUkFOQUdBUgRUQVBJCFZBRE9EQVJBBlZBTFNBRBUnATACMTICMzIBNQIyMgIzNAE4AjE2ATQCMzUCMzYCNDMCMjMCNDICMTkCMzcCNDECMTECMzgBMQE2ATcCMTMCMTACMzkCNDACMjQCMjUCMTQCMjECMjABMgE5AjE3AjQ3ATMCMjYCMTUCMTgUKwMnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgECAmQCLw8PFgIfAAUOQUhNRURBQkFEIENJVFlkZAIxDxAPFgYfBwULVGFsdWthX05hbWUfCAULVGFsdWthX0NvZGUfCWdkEBUCDVBsZWFzZSBTZWxlY3QUIEFITUVEQUJBRCBNVU4uQ09SUC4VAgEwAzM5NhQrAwJnZxYBAgFkAjMPDxYCHwAFFCBBSE1FREFCQUQgTVVOLkNPUlAuZGQCNQ8QDxYGHwcFCUNpdHlfTmFtZR8IBQlDaXR5X0NvZGUfCWdkEBUCDVBsZWFzZSBTZWxlY3QOQUhNRURBQkFEIENJVFkVAgEwBTE5NDIxFCsDAmdnFgECAWQCNw8PFgIfAAUOQUhNRURBQkFEIENJVFlkZAI5Dw8WAh8ABQYzODAwMTVkZAI7Dw8WAh8ABQMtLS1kZAI9D2QWBAIBDw8WAh8ABQo5ODI1MjkwNzgyZGQCAw8PFgIfAAUUaHB5YWduaWszM0BnbWFpbC5jb21kZAI/Dw8WAh8ABQQyMDIwZGQCQQ8WAh8BZxYCAgEPDxYCHwAFGWhzL3JnLzAxLzA1Mi8wNC8yMC8wMDAwOTFkZAJDD2QWAgIBDw8WAh8ABQNOL0FkZAJJDxBkZBYBZmQCSw8PFgIfAAUBQWRkAk0PDxYCHwAFB0VuZ2xpc2hkZAJPDxBkZBYBAgJkAlEPZBYCAgUPDxYCHwAFD+KAoglNYXRoZW1hdGljc2RkAlMPDxYCHwAFAjAxZGQCVQ8PFgIfAAVIR3VqYXJhdCBTZWNvbmRhcnkgJiBIaWdoZXIgU2Vjb25kYXJ5IEVkdWNhdGlvbiBCb2FyZCwgR0FOREhJTkFHQVItMzgyMDEwZGQCVw8PFgIfAAUGMDEuMDUyZGQCWQ8PFgIfAAU0QSBHIEhJR0ggU0NIT09MICBHICBEIFBBUklLSCBISUdIRVIgU0VDT05EQVJZIFNDSE9PTGRkAlsPDxYCHwAFAzIwMWRkAl0PDxYCHwAFDkFITUVEQUJBRCBDSVRZZGQCXw8PFgIfBgVUU2hvd0ltYWdlLmFzaHg/UGF0aD1mbHhIVlVwRFJWUkJkSFJoWTJodFpXNTBjMXhTUnpBek9EQTFOVnhUYVdkdVgxSkhNRE00TURVMUxtcHdadz09ZGRkWHTEmLVgyOvDHuKwrORWcCtJxJ0jaKSrF86nz1wxz0s=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Welcome to GUJCET_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./Welcome to GUJCET_files/ScriptResource.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="./Welcome to GUJCET_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F51F136E">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="338">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATzmAFbC7+FYxoB/FW0szPdrUzWhtTK1dbDsM2X5m+67cZTF7oFG5TP9aQWuRWVjv0ykrk6MhqChj+uqn1YT72JYgjO5P2O30pb/5niHocpL6Gys3Chm0522Z5AbKmfR4s=">
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scrmgr', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <nav class="navbar nav_static navclr zeromarg">
+        <div class="container">
+            <div class="row">
+                <div class=" text-center center-block pull-left">
+                    <img src="./Welcome to GUJCET_files/gseb-dark.png" class="img-responsive">
+                </div>
+                <div class="profile_details" id="iduser">
+                    <ul>
+                        <li class="dropdown profile_details_drop">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <div class="profile_img">
+                                    <span class="prfil-img"><img src="./Welcome to GUJCET_files/user.jpg" height="50" alt=""> </span>
+                                    <div class="user-name">
+                                        <p>Welcome,<span id="lblUserName">hpyagnik33@gmail.com</span></p>
+                                        <span><strong>Date :</strong> <span id="lblDate">25-01-2020 10:58 PM</span> </span>
+                                        <input type="hidden" name="ctl00$hidApplicantRegId" id="hidApplicantRegId" value="29442">
+                                    </div>
+                                    <i class="fa fa-angle-down lnr"></i>
+                                    <i class="fa fa-angle-up lnr"></i>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu drp-mnu">
+                                <li>  <a id="lnkChangePasword" href="javascript:__doPostBack(&#39;ctl00$lnkChangePasword&#39;,&#39;&#39;)"><i class="fa fa-cog"></i>Change password</a></li>
+                                <li> <a id="lnkLogout" href="javascript:__doPostBack(&#39;ctl00$lnkLogout&#39;,&#39;&#39;)"><i class="fa fa-sign-out"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar   " id="idmenu">
+        <div class="container  ">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar bg-success  "></span>
+                        <span class="icon-bar  bg-success"></span>
+                        <span class="icon-bar bg-success"></span>
+                    </button>
+                </div>
+                <div class="text-center collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-nav1">                       
+                        <li><a href="https://gujcet.gseb.org/Dashboard.aspx"><i class="fa fa-home"></i>Home</a> </li>
+                         <li id="lipayment"><a href="https://gujcet.gseb.org/Payment.aspx"><i class="fa fa-rupee"></i>Payment</a> </li>
+                        <li id="liApplication" class="dropdown">
+                           <a class="dropdown-toggle" data-toggle="dropdown">Application<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li></li>
+                                <li></li>
+                                <li><a href="https://gujcet.gseb.org/ApplicationPrint.aspx" id="liview">View / Print</a></li>                                
+                            </ul>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="min-height: 75vh;">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="dashboard-block">
+                    
+    <div class="container">
+        <div class="visible-xs row">
+            <div class=" col-xs-5 pull-right text-right">
+                <strong>Print Date :</strong>
+                <label id="currentDate">
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="dashboard-block">
+                    <div class="heading">
+                        GUJARAT COMMON ENTRANCE TEST
+                        <span id="ContentPlaceHolder1_lblCurrentExamYear">- 2020</span>
+                        
+                    </div>
+                    <div class="body">
+                        <table class=" table-responsive" style="width: 100%;">
+                            <tbody><tr>
+                                <td>
+                                    <div class="form-horizontal myform">
+                                        <div class=" ">
+                                            <label class="control-label">
+                                                Application number:
+                                            </label>
+                                            <span id="ContentPlaceHolder1_lblAppno" class="control-label normal_font">RG038055</span>
+                                        </div>
+                                        <div class=" ">
+                                            <label class="control-label">
+                                                Application Submission Date:
+                                            </label>
+                                            <span id="ContentPlaceHolder1_lblAppliDate" class="control-label normal_font">25/01/2020</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td align="center">
+                                    <span id="ContentPlaceHolder1_RadBarcode1" class="RadBarcode RadBarcode" style="display:inline-block;height:150px;width:300px;height: 100px; width: 100px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 114 114"><path shape-rendering="crispEdges" stroke-width="2" stroke="black" fill="black" d="M 8 9 22 9 M 54 9 58 9 M 62 9 66 9 M 68 9 72 9 M 80 9 84 9 M 92 9 106 9 M 24 11 28 11 M 34 11 44 11 M 46 11 52 11 M 56 11 66 11 M 84 11 90 11 M 12 13 18 13 M 36 13 40 13 M 86 13 90 13 M 96 13 102 13 M 12 15 18 15 M 34 15 38 15 M 78 15 84 15 M 96 15 102 15 M 12 17 18 17 M 26 17 30 17 M 50 17 62 17 M 66 17 70 17 M 96 17 102 17 M 30 19 34 19 M 42 19 48 19 M 50 19 54 19 M 72 19 80 19 M 8 21 22 21 M 92 21 106 21 M 36 23 40 23 M 50 23 54 23 M 64 23 68 23 M 70 23 74 23 M 8 25 18 25 M 20 25 30 25 M 32 25 36 25 M 38 25 42 25 M 52 25 64 25 M 66 25 70 25 M 80 25 84 25 M 86 25 92 25 M 62 27 66 27 M 90 27 96 27 M 14 29 18 29 M 20 29 26 29 M 44 29 48 29 M 52 29 56 29 M 74 29 82 29 M 102 29 106 29 M 12 31 16 31 M 24 31 28 31 M 42 31 48 31 M 56 31 60 31 M 70 31 78 31 M 88 31 92 31 M 14 33 18 33 M 20 33 26 33 M 30 33 34 33 M 54 33 60 33 M 78 33 86 33 M 98 33 104 33 M 12 35 16 35 M 32 35 36 35 M 40 35 50 35 M 52 35 58 35 M 66 35 72 35 M 78 35 82 35 M 90 35 94 35 M 8 37 24 37 M 32 37 42 37 M 48 37 54 37 M 58 37 62 37 M 68 37 72 37 M 74 37 78 37 M 80 37 88 37 M 100 37 106 37 M 12 39 16 39 M 26 39 30 39 M 44 39 50 39 M 52 39 62 39 M 68 39 76 39 M 84 39 88 39 M 8 41 12 41 M 16 41 22 41 M 32 41 36 41 M 42 41 46 41 M 48 41 52 41 M 78 41 82 41 M 84 41 90 41 M 98 41 102 41 M 10 43 16 43 M 22 43 26 43 M 28 43 34 43 M 44 43 48 43 M 52 43 60 43 M 62 43 66 43 M 78 43 84 43 M 90 43 102 43 M 8 45 12 45 M 18 45 24 45 M 34 45 44 45 M 48 45 54 45 M 76 45 84 45 M 102 45 106 45 M 10 47 16 47 M 22 47 30 47 M 36 47 40 47 M 54 47 60 47 M 90 47 94 47 M 102 47 106 47 M 30 49 38 49 M 54 49 58 49 M 66 49 72 49 M 78 49 82 49 M 86 49 94 49 M 98 49 106 49 M 62 51 72 51 M 90 51 94 51 M 100 51 104 51 M 14 53 30 53 M 42 53 48 53 M 50 53 64 53 M 66 53 78 53 M 80 53 100 53 M 102 53 106 53 M 10 55 14 55 M 24 55 30 55 M 32 55 36 55 M 68 55 74 55 M 8 57 14 57 M 38 57 46 57 M 48 57 54 57 M 60 57 64 57 M 66 57 70 57 M 78 57 90 57 M 96 57 102 57 M 10 59 18 59 M 24 59 32 59 M 36 59 40 59 M 50 59 54 59 M 60 59 64 59 M 68 59 72 59 M 80 59 84 59 M 96 59 100 59 M 16 61 26 61 M 28 61 34 61 M 48 61 64 61 M 74 61 98 61 M 100 61 106 61 M 24 63 32 63 M 42 63 46 63 M 56 63 62 63 M 72 63 76 63 M 94 63 98 63 M 18 65 22 65 M 24 65 28 65 M 30 65 34 65 M 78 65 94 65 M 98 65 102 65 M 8 67 12 67 M 16 67 20 67 M 28 67 36 67 M 40 67 56 67 M 60 67 64 67 M 66 67 72 67 M 86 67 90 67 M 92 67 96 67 M 98 67 104 67 M 8 69 12 69 M 18 69 22 69 M 26 69 30 69 M 38 69 42 69 M 48 69 54 69 M 82 69 86 69 M 88 69 94 69 M 102 69 106 69 M 12 71 18 71 M 24 71 28 71 M 46 71 50 71 M 62 71 68 71 M 102 71 106 71 M 20 73 26 73 M 28 73 32 73 M 38 73 46 73 M 60 73 64 73 M 66 73 72 73 M 78 73 84 73 M 10 75 20 75 M 36 75 40 75 M 60 75 64 75 M 68 75 72 75 M 80 75 84 75 M 90 75 96 75 M 10 77 18 77 M 20 77 26 77 M 32 77 44 77 M 50 77 58 77 M 70 77 82 77 M 84 77 88 77 M 90 77 98 77 M 8 79 14 79 M 36 79 42 79 M 58 79 62 79 M 84 79 90 79 M 94 79 98 79 M 20 81 24 81 M 26 81 38 81 M 66 81 72 81 M 90 81 94 81 M 22 83 28 83 M 50 83 54 83 M 66 83 70 83 M 78 83 82 83 M 90 83 94 83 M 8 85 14 85 M 20 85 24 85 M 30 85 34 85 M 68 85 86 85 M 88 85 94 85 M 100 85 106 85 M 10 87 16 87 M 26 87 30 87 M 32 87 36 87 M 54 87 58 87 M 76 87 80 87 M 88 87 92 87 M 18 89 22 89 M 40 89 64 89 M 78 89 82 89 M 84 89 104 89 M 32 91 40 91 M 50 91 54 91 M 60 91 66 91 M 68 91 72 91 M 78 91 84 91 M 8 93 22 93 M 30 93 34 93 M 44 93 50 93 M 60 93 64 93 M 84 93 90 93 M 96 93 100 93 M 26 95 32 95 M 42 95 46 95 M 50 95 54 95 M 60 95 68 95 M 12 97 18 97 M 24 97 28 97 M 50 97 64 97 M 86 97 102 97 M 12 99 18 99 M 24 99 28 99 M 40 99 50 99 M 66 99 70 99 M 78 99 82 99 M 96 99 106 99 M 12 101 18 101 M 24 101 28 101 M 38 101 46 101 M 48 101 62 101 M 74 101 88 101 M 28 103 32 103 M 40 103 58 103 M 82 103 96 103 M 8 105 22 105 M 40 105 48 105 M 56 105 64 105 M 68 105 72 105 M 78 105 84 105 M 96 105 106 105 M 9 8 9 22 M 9 24 9 28 M 9 36 9 42 M 9 48 9 52 M 9 62 9 64 M 9 66 9 74 M 9 92 9 106 M 11 28 11 30 M 11 40 11 48 M 11 52 11 60 M 11 66 11 70 M 11 74 11 90 M 13 12 13 18 M 13 34 13 40 M 13 54 13 60 M 13 74 13 80 M 13 84 13 88 M 13 96 13 102 M 15 12 15 18 M 15 24 15 40 M 15 42 15 48 M 15 64 15 66 M 15 68 15 72 M 15 74 15 78 M 15 96 15 102 M 17 12 17 18 M 17 48 17 50 M 17 52 17 62 M 17 70 17 84 M 17 96 17 102 M 19 30 19 32 M 19 40 19 48 M 19 50 19 54 M 19 60 19 70 M 21 8 21 22 M 21 48 21 50 M 21 56 21 58 M 21 92 21 106 M 23 42 23 48 M 23 72 23 78 M 23 80 23 88 M 25 14 25 16 M 25 18 25 22 M 25 28 25 34 M 25 40 25 44 M 25 50 25 68 M 25 70 25 74 M 25 90 25 94 M 25 96 25 106 M 27 44 27 48 M 27 52 27 56 M 27 62 27 66 M 27 68 27 72 M 27 74 27 76 M 27 80 27 84 M 27 86 27 90 M 27 94 27 102 M 29 8 29 10 M 29 20 29 26 M 29 28 29 30 M 29 34 29 36 M 29 52 29 56 M 29 58 29 64 M 29 66 29 70 M 29 76 29 78 M 29 90 29 92 M 31 10 31 14 M 31 58 31 68 M 31 72 31 76 M 31 88 31 90 M 31 92 31 96 M 31 98 31 100 M 33 8 33 10 M 33 16 33 22 M 33 32 33 38 M 33 40 33 44 M 33 64 33 68 M 33 70 33 72 M 33 76 33 88 M 33 90 33 94 M 33 96 33 98 M 35 30 35 32 M 35 34 35 42 M 35 52 35 58 M 35 62 35 64 M 35 66 35 70 M 35 72 35 74 M 35 86 35 92 M 35 94 35 96 M 35 98 35 106 M 37 10 37 16 M 37 18 37 24 M 37 42 37 50 M 37 74 37 82 M 37 84 37 86 M 39 8 39 14 M 39 16 39 18 M 39 22 39 28 M 39 30 39 34 M 39 40 39 42 M 39 44 39 48 M 39 50 39 52 M 39 54 39 66 M 39 72 39 80 M 39 82 39 84 M 39 86 39 88 M 39 90 39 98 M 41 20 41 22 M 41 34 41 40 M 41 66 41 74 M 41 76 41 80 M 41 98 41 106 M 43 8 43 12 M 43 14 43 16 M 43 48 43 50 M 43 52 43 60 M 43 80 43 82 M 43 84 43 92 M 43 98 43 106 M 45 16 45 26 M 45 28 45 44 M 45 50 45 54 M 45 60 45 70 M 45 82 45 84 M 45 92 45 106 M 47 8 47 12 M 47 14 47 16 M 47 26 47 32 M 47 48 47 50 M 47 58 47 60 M 47 74 47 82 M 47 84 47 86 M 47 88 47 94 M 47 102 47 106 M 49 20 49 22 M 49 24 49 26 M 49 34 49 42 M 49 44 49 48 M 49 66 49 74 M 49 98 49 104 M 51 10 51 14 M 51 16 51 20 M 51 32 51 34 M 51 48 51 54 M 51 56 51 62 M 51 64 51 70 M 51 82 51 92 M 51 94 51 98 M 51 100 51 104 M 53 16 53 26 M 53 34 53 40 M 53 42 53 46 M 53 52 53 64 M 53 66 53 70 M 53 72 53 74 M 53 88 53 98 M 53 100 53 104 M 55 14 55 18 M 55 32 55 36 M 55 46 55 50 M 55 70 55 72 M 55 84 55 90 M 55 100 55 104 M 57 8 57 14 M 57 20 57 22 M 57 30 57 36 M 57 38 57 54 M 57 56 57 58 M 57 60 57 66 M 57 74 57 78 M 57 80 57 84 M 57 86 57 90 M 57 92 57 94 M 57 96 57 106 M 59 14 59 18 M 59 24 59 28 M 59 30 59 34 M 59 36 59 40 M 59 60 59 64 M 59 68 59 70 M 59 84 59 86 M 61 16 61 26 M 61 36 61 40 M 61 48 61 50 M 61 52 61 64 M 61 72 61 76 M 61 78 61 82 M 61 88 61 98 M 63 8 63 14 M 63 24 63 32 M 63 40 63 48 M 63 50 63 54 M 63 56 63 62 M 63 66 63 78 M 63 82 63 86 M 63 88 63 98 M 65 8 65 12 M 65 18 65 24 M 65 38 65 40 M 65 54 65 56 M 65 86 65 88 M 65 100 65 104 M 67 22 67 26 M 67 28 67 30 M 67 44 67 46 M 67 48 67 54 M 67 70 67 74 M 67 76 67 78 M 67 80 67 84 M 67 92 67 100 M 69 12 69 22 M 69 24 69 28 M 69 32 69 44 M 69 46 69 60 M 69 62 69 64 M 69 66 69 70 M 69 72 69 76 M 69 80 69 88 M 69 98 69 106 M 71 8 71 12 M 71 34 71 40 M 71 48 71 56 M 71 58 71 62 M 71 64 71 68 M 71 72 71 78 M 71 88 71 92 M 71 96 71 98 M 73 12 73 14 M 73 16 73 24 M 73 26 73 28 M 73 42 73 48 M 73 52 73 56 M 73 70 73 72 M 73 76 73 80 M 73 82 73 88 M 73 92 73 94 M 73 102 73 104 M 75 10 75 12 M 75 14 75 16 M 75 24 75 26 M 75 28 75 32 M 75 36 75 40 M 75 48 75 50 M 75 56 75 58 M 75 60 75 64 M 75 74 75 78 M 75 80 75 82 M 75 98 75 102 M 75 104 75 106 M 77 18 77 22 M 77 28 77 32 M 77 68 77 70 M 77 84 77 88 M 79 32 79 36 M 79 40 79 46 M 79 48 79 52 M 79 70 79 74 M 79 82 79 92 M 79 94 79 96 M 79 98 79 102 M 81 8 81 12 M 81 20 81 22 M 81 24 81 30 M 81 32 81 38 M 81 40 81 46 M 81 56 81 66 M 81 72 81 86 M 81 88 81 92 M 81 96 81 102 M 83 22 83 26 M 83 30 83 34 M 83 42 83 46 M 83 56 83 62 M 83 68 83 76 M 83 100 83 106 M 85 18 85 22 M 85 36 85 42 M 85 76 85 80 M 85 100 85 104 M 87 10 87 16 M 87 22 87 26 M 87 28 87 30 M 87 36 87 42 M 87 46 87 54 M 87 64 87 68 M 87 72 87 74 M 87 76 87 82 M 87 100 87 106 M 89 8 89 14 M 89 20 89 22 M 89 52 89 70 M 89 84 89 100 M 91 24 91 28 M 91 34 91 40 M 91 46 91 54 M 91 72 91 78 M 91 80 91 90 M 93 8 93 22 M 93 46 93 54 M 93 56 93 58 M 93 64 93 70 M 93 74 93 78 M 93 80 93 86 M 93 92 93 94 M 93 96 93 100 M 95 24 95 30 M 95 32 95 34 M 95 40 95 46 M 95 60 95 64 M 95 74 95 80 M 95 100 95 104 M 97 12 97 18 M 97 38 97 40 M 97 46 97 48 M 97 50 97 64 M 97 68 97 74 M 97 76 97 80 M 97 84 97 86 M 97 88 97 100 M 99 12 99 18 M 99 24 99 26 M 99 28 99 30 M 99 40 99 44 M 99 56 99 60 M 99 64 99 68 M 99 74 99 76 M 99 82 99 84 M 99 96 99 106 M 101 12 101 18 M 101 26 101 28 M 101 40 101 44 M 101 48 101 52 M 101 64 101 68 M 101 72 101 74 M 101 80 101 82 M 101 96 101 100 M 103 24 103 26 M 103 44 103 54 M 103 66 103 72 M 105 8 105 22 M 105 36 105 42 M 105 44 105 50 M 105 52 105 62 M 105 64 105 66 M 105 68 105 74 M 105 76 105 86 M 105 92 105 94 M 105 102 105 106 "></path></svg></span>
+                                </td>
+                                <td align="center">
+                                    <img id="ContentPlaceHolder1_Image" src="./Welcome to GUJCET_files/ShowImage.ashx" style="border-width:1px;border-style:solid;height:100px;width:100px;">
+                                    <div class="caption">
+                                        Candidate's Photo
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                        <div class="title">
+                            Personal Details:</div>
+                        <div class="form-horizontal myform">
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3 ">
+                                    Candidate Name:</label>
+                                <span id="ContentPlaceHolder1_lblSurname" class="control-label normal_font col-md-3 col-sm-3 col-xs-3 " maxlength="40" style="text-transform: uppercase">YAGNIK</span>
+                                <span id="ContentPlaceHolder1_lblFirstName" class="control-label normal_font col-md-3 col-sm-3 col-xs-3 " maxlength="40" style="text-transform: uppercase">HARIOM</span>
+                                <span id="ContentPlaceHolder1_lblFatherName" class="control-label normal_font col-md-3 col-sm-3 col-xs-3 " maxlength="40" style="text-transform: uppercase">PREMALBHAI</span>
+                            </div>
+                            <div class="form-group">
+                                <spam class=" col-md-3 col-sm-3 col-xs-3"></spam>
+                                <spam class=" col-md-3 col-sm-3 col-xs-3" style="">(Surname)</spam>
+                                <spam class=" col-md-3 col-sm-3 col-xs-3" style="">(First Name)</spam>
+                                <spam class=" col-md-3 col-sm-3 col-xs-3" style="">(Father Name)</spam>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Date Of Birth:</label>
+                                <span id="ContentPlaceHolder1_lblDOB" class="control-label normal_font col-md-3 col-sm-3 col-xs-3 col-sm-3 col-xs-3">18/01/2003</span>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Gender:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblSex">Male</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Caste:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblCaste">Other</span>
+                                </div>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Physically Handicapped :
+                                </label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblHandicapped">N/A</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Family Annual Income:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblFamilyAnnualIncome">Above 600000</span>
+                                </div>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Aadhaar Card No:
+                                </label>
+                                <span id="ContentPlaceHolder1_lblAadhaarCard" class="control-label normal_font col-md-3 col-sm-3 col-xs-3" style="text-transform: uppercase"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Address Line 1:</label>
+                                <span id="ContentPlaceHolder1_lblPostalAddress" class="control-label normal_font col-md-9 col-sm-9 col-xs-9" style="text-transform: uppercase">C-1 AAGMAN ROW HOUSE, BEHIND JODHPUR GAM</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Address Line 2:</label>
+                                <span id="ContentPlaceHolder1_lblAdd2" class="control-label normal_font col-md-9 col-sm-9 col-xs-9" style="text-transform: uppercase">SATELLITE, AHMEDABAD</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    State:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblState">Gujarat</span>
+                                </div>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    District:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblDistrict">AHMEDABAD CITY</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Taluka:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblTaluka"> AHMEDABAD MUN.CORP.</span>
+                                </div>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    City/Village:</label>
+                                <div class="control-label normal_font col-md-3 col-sm-3 col-xs-3">
+                                    
+                                    <span id="ContentPlaceHolder1_lblCity">AHMEDABAD CITY</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Pincode:</label>
+                                <span id="ContentPlaceHolder1_lblPincode" class="control-label normal_font col-md-3 col-sm-3 col-xs-3" style="text-transform: uppercase">380015</span>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Landline(with STD Code):
+                                </label>
+                                <span id="ContentPlaceHolder1_lblLandline" class="control-label normal_font col-md-3 col-sm-3 col-xs-3" style="text-transform: uppercase">---</span>
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div class="title">
+                            Examination Details:</div>
+                        <div class="form-horizontal myform">
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    HSC Exam Appearing year:</label>
+                                <div class="control-label normal_font col-md-2 col-sm-2 col-xs-2">
+                                    <span id="ContentPlaceHolder1_lblYear" class="control-label normal_font">2020</span>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7 Zeropadding">
+                                    <div id="ContentPlaceHolder1_pnlOSERData">
+                                        <label class="control-label col-md-4 col-sm-4 col-xs-4">
+                                            HSC Exam Registration No:</label>
+                                        <span id="ContentPlaceHolder1_lblOSERHSCReg" class="control-label normal_font col-md-4 col-sm-4 col-xs-4" style="text-transform: uppercase">hs/rg/01/052/04/20/000091</span>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Group:</label>
+                                <div class="control-label normal_font col-md-1 col-sm-1 col-xs-1">
+                                    
+                                    <span id="ContentPlaceHolder1_lblGroup">A</span>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3 zeropadding">
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-5  ">
+                                    <label class="control-label col-md-6 col-sm-6 col-xs-6">
+                                        Medium:</label>
+                                    <div class="control-label col-md-6 col-sm-6 col-xs-6">
+                                        <span id="ContentPlaceHolder1_lblMedium" class="control-label normal_font">English</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                </div>
+                                <div id="ContentPlaceHolder1_tblGroup" class="col-md-9 col-sm-9 col-xs-9 zeropadding">
+                                    <strong>Subjects chosen:</strong>
+                                    <span id="ContentPlaceHolder1_lblPhysics">•	Physics</span>
+                                    <span id="ContentPlaceHolder1_lblChemistry">•	Chemistry</span>
+                                    <span id="ContentPlaceHolder1_lblVariable">•	Mathematics</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <p>
+                                    Note :- You will get the question paper according to selection of Medium and Group.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="title">
+                            Board &amp; School Details:</div>
+                        <div class="form-horizontal myform">
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Board Code:</label>
+                                <span id="ContentPlaceHolder1_lblBoardCode" class="control-label normal_font col-md-1 col-sm-1 col-xs-1" style="text-transform: uppercase">01</span>
+                                <label class="control-label col-md-2 col-sm-2 col-xs-2">
+                                    Board Name:</label>
+                                <span id="ContentPlaceHolder1_lblBoardName" class="control-label normal_font col-md-6 col-sm-6 col-xs-6" style="text-transform: uppercase">Gujarat Secondary &amp; Higher Secondary Education Board, GANDHINAGAR-382010</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    HSC School Index No:</label>
+                                <span id="ContentPlaceHolder1_lblHSC_School_Index" class="control-label normal_font col-md-2 col-sm-2 col-xs-2" style="text-transform: uppercase">01.052</span>
+                                <label class="control-label col-md-2 col-sm-2 col-xs-2">
+                                    Name of School:</label>
+                                <span id="ContentPlaceHolder1_lblSchoolName" class="control-label normal_font col-md-5 col-sm-5 col-xs-5" style="text-transform: uppercase">A G HIGH SCHOOL  G  D PARIKH HIGHER SECONDARY SCHOOL</span>
+                            </div>
+                            <div class="form-group">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-3">
+                                    Center Code:</label>
+                                <div class="col-md-2 col-sm-2 col-xs-2 control-label normal_font">
+                                    <span id="ContentPlaceHolder1_lblCenterCode">201</span>
+                                </div>
+                                <label class="control-label col-md-2 col-sm-3 col-xs-3">
+                                    Center Name:</label>
+                                <span id="ContentPlaceHolder1_lblCenterName" class="control-label normal_font col-md-5 col-sm-4 col-xs-4" style="text-transform: uppercase">AHMEDABAD CITY</span>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-2 col-sm-2 col-xs-2" style="text-align: right; color: Black">
+                                    <strong>Note:</strong></div>
+                                Allocation of center is subject to the registration of minimum 100 students in newly
+                                formed districts.
+                            </div>
+                            <br>
+                            <div class="form-group" style="color: #000;">
+                                <strong>I hereby declare that all the data filled above is duly checked and correct
+                                    as per my knowledge, I here by declare the data to be correct. </strong>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-xs-12 text-right">
+                                <img id="ContentPlaceHolder1_Image1" src="./Welcome to GUJCET_files/ShowImage(1).ashx" style="height:75px;width:100px;">
+                                <div class="caption hidden-xs">
+                                    Candidate's Sign
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                        <div class="myform form-group text-center hidden-xs">
+                            <button class="submit" onclick="js_print()">
+                                <i class="fa fa-print"></i>Print Form
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>       
+      <div class="footer-bottom">
+    <div class="container">
+         
+      <div>
+              
+                    © Copyright 2011 - 2020. Gujarat Secondary and Higher Secondary Education Board.
+                    All rights reserved | Design by <a href="http://www.gipl.in/" target="_blank">Guj Info Petro Limited</a> 
+                    </div>
+        </div>
+  </div>
+    </footer>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("scrmgr_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
